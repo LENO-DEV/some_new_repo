@@ -1,0 +1,15 @@
+{
+  "name": "ci-cd-with-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lambda_fun.js",
+  "scripts": {
+    "deploy": "serverless deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serverless": "^2.20.1"
+  }
+}
