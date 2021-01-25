@@ -5,10 +5,10 @@ const DynamoDB = new AWS.DynamoDB.DocumentClient();
 module.exports.functionOne = async (event) => {
   return new Promise((res, rej) => {
     var Params = {
-      TableName: 'Project_Data'
+      TableName: 'Project_Data' 
     }
     DynamoDB.scan(Params, (err, data) => {
-      if (err) rej(err);
+      if (err) rej(err); :
       else {
         const response = {
           body:   JSON.stringify(data,null)

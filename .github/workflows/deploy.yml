@@ -25,4 +25,4 @@ jobs:
     - name: Serverless Deployed 💡
       run: | 
         npm run-script deploy
-        echo Serverless deployed
+        echo 😃 Serverless deployed Success 😃
