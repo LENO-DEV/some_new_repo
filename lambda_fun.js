@@ -8,7 +8,7 @@ module.exports.functionOne = async (event) => {
       TableName: 'Project_Data' 
     }
     DynamoDB.scan(Params, (err, data) => {
-      if (err) rej(err); :
+      if (err) rej(err); 
       else {
         const response = {
           body:   JSON.stringify(data,null)
