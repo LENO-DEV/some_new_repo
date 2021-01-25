@@ -5,6 +5,7 @@
   "main": "lambda_fun.js",
   "scripts": {
     "deploy": "serverless deploy",
+    "dev": "node lambda_fun.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
