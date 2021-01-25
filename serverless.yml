@@ -6,6 +6,9 @@ provider:
   region: ap-south-1
   endpointType: regional
 
+package:
+  exclude:
+    - node_modules/**
 
 functions:
   functionOne:
