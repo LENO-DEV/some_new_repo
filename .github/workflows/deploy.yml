@@ -22,11 +22,5 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ap-south-1
-    - name: Serverless Deploy
+    - name: Serverless Deployed 💡
       run: npm run-script deploy
-    - name: Create comment
-      uses: peter-evans/create-or-update-comment@v1
-      with:
-        body: |
-          This is a multi-line test comment
-        reactions: heart
